@@ -1,0 +1,19 @@
+# SALIN SEMUA INFORMASI SEKOLAH/INSTITUSI ANDA DI SINI
+# AI akan menjawab hanya berdasarkan data yang ada di file ini.
+
+## DATA SEKOLAH
+Nama Sekolah: [Nama Sekolah Anda]
+Alamat: [Alamat Sekolah]
+WhatsApp: [Nomor WhatsApp]
+
+## KURIKULUM & PROGRAM
+- [Program 1]
+- [Program 2]
+
+## BIAYA PENDAFTARAN
+- [Detail Biaya 1]
+- [Detail Biaya 2]
+
+## JADWAL
+- [Jadwal 1]
+- [Jadwal 2]
