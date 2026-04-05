@@ -2,9 +2,9 @@
 # AI akan menjawab hanya berdasarkan data yang ada di file ini.
 
 ## DATA SEKOLAH
-Nama Sekolah: [Nama Sekolah Anda]
-Alamat: [Alamat Sekolah]
-WhatsApp: [Nomor WhatsApp]
+Nama Sekolah: AL Irsyad Al Islamiyyah
+Alamat: jalan apa saja
+WhatsApp: 089123456
 
 ## KURIKULUM & PROGRAM
 - [Program 1]

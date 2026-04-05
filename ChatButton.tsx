@@ -46,11 +46,11 @@ const ChatButton: React.FC = () => {
               }}
             />
           )}
-          {!isOpen && <MessageCircle className="w-6 h-6 text-[#0c4a6e] hidden" />} 
+          {!isOpen && <MessageCircle className="w-6 h-6 text-pink-600 hidden" />} 
         </div>
 
         {!isOpen && (
-          <span className="whitespace-nowrap font-medium text-[#0c4a6e]">
+          <span className="whitespace-nowrap font-medium text-pink-600">
             Tanya {CHATBOT_CONFIG.NAME.split(' ')[0]}
           </span>
         )}

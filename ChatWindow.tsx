@@ -85,7 +85,7 @@ const ChatWindow: React.FC<ChatWindowProps> = ({ onClose }) => {
   return (
     <div className="w-[320px] sm:w-[380px] h-[500px] bg-white rounded-2xl shadow-2xl overflow-hidden border border-gray-100 flex flex-col font-sans">
       {/* Header */}
-      <div className="bg-[#0c4a6e] p-4 flex items-center justify-between text-white">
+      <div className="bg-pink-600 p-4 flex items-center justify-between text-white">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center border border-white/20">
             <Bot className="w-6 h-6" />
@@ -119,7 +119,7 @@ const ChatWindow: React.FC<ChatWindowProps> = ({ onClose }) => {
                 <div 
                   className={`max-w-[85%] p-3 rounded-2xl text-sm shadow-sm whitespace-pre-wrap ${
                     m.role === "user" 
-                      ? "bg-[#0c4a6e] text-white rounded-tr-none" 
+                      ? "bg-pink-600 text-white rounded-tr-none" 
                       : "bg-white text-gray-800 rounded-tl-none border border-gray-100"
                   }`}
                 >
@@ -170,12 +170,12 @@ const ChatWindow: React.FC<ChatWindowProps> = ({ onClose }) => {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             placeholder="Ketik pertanyaan..."
-            className="rounded-full bg-gray-50 border-none shadow-none focus-visible:ring-1 focus-visible:ring-sky-600/20"
+            className="rounded-full bg-gray-50 border-none shadow-none focus-visible:ring-1 focus-visible:ring-pink-600/20"
           />
           <Button 
             disabled={!input.trim() || isLoading}
             size="icon" 
-            className="rounded-full bg-[#0c4a6e] hover:bg-[#075985]"
+            className="rounded-full bg-pink-600 hover:bg-pink-700 text-white"
           >
             <Send className="w-4 h-4" />
           </Button>

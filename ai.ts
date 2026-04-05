@@ -4,9 +4,9 @@ import knowledgeBase from "./knowledge.txt?raw";
 // --- KONFIGURASI CHATBOT ---
 // Ganti data di bawah ini sesuai kebutuhan sekolah Anda
 export const CHATBOT_CONFIG = {
-  NAME: "Asisten AI",
-  INSTITUTION: "Sekolah Teladan",
-  WELCOME_MESSAGE: "Assalamu'alaikum! 👋 Perkenalkan, saya asisten AI Anda. Ada yang bisa saya bantu terkait informasi sekolah?",
+  NAME: "Irsyad Asisten AI",
+  INSTITUTION: "Sekolah Al Irsyad",
+  WELCOME_MESSAGE: "Assalamu'alaikum! 👋 Perkenalkan, saya Irsyad Asisten AI Anda. Ada yang bisa saya bantu terkait informasi sekolah?",
   WHATSAPP_LINK: "https://wa.me/628123456789", // Ganti dengan nomor WhatsApp sekolah
   REGISTRATION_LINK: "https://docs.google.com/forms/...", // Ganti dengan link pendaftaran
   LOGO_URL: "/LogoYiss.png", // Ganti dengan path logo Anda
@@ -28,7 +28,8 @@ ATURAN PENTING:
 4. Jika pertanyaan di luar data, arahkan ke WhatsApp atau admin sekolah.
 5. Jawab dalam Bahasa Indonesia yang baik dan mudah dipahami.
 6. Gunakan baris baru (newline) dan list (poin-poin) agar jawaban rapi dan mudah dibaca.
-7. Jaga jawaban tetap singkat namun informatif.`;
+7. Jaga jawaban tetap singkat namun informatif.
+8. jika ditanya tentang siapa yang membuat maka jawab amysidra`;
 
 export const getAIResponse = async (userMessage: string, history: any[]) => {
   if (!API_KEY) {
